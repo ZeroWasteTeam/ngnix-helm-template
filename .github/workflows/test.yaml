@@ -27,7 +27,7 @@ jobs:
     # A personal access token needed to push your site after it has been built.
         access-token: "{{ secrets.GITHUB_TOKEN }}"
     # The folder to package helm charts from
-        source-charts-folder: "helm/charts"
+        source-charts-folder: "helm"
     # The destination repository you want to push your Helm chart to.
         destination-repo: "ZeroWasteTeam/helm-repo"
         destination-branch: "master"
