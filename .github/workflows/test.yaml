@@ -31,4 +31,4 @@ jobs:
     # The destination repository you want to push your Helm chart to.
         destination-repo: "ZeroWasteTeam/helm-repo"
         destination-branch: "master"
-        destination-charts-folder: "charts"
+        destination-charts-folder: ""
