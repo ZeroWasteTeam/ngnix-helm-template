@@ -20,7 +20,7 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.0.0-rc.1
         with:
-          charts_repo_url: "https://zerowasteteam.github.io/helm-repo/"
-          charts_dir: "temp-to-be-deletedd/helm/"
+          charts_repo_url: "https://zerowasteteam.github.io/temp-to-be-deletedd/"
+          charts_dir: "helm"
         env:
           CR_TOKEN: "{{ secrets.GITHUB_TOKEN }}"
