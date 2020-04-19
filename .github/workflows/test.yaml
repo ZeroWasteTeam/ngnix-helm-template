@@ -25,7 +25,7 @@ jobs:
       uses: ZeroWasteTeam/helm-gh-pages-microservices@master
       with:
     # A personal access token needed to push your site after it has been built.
-        access-token: "{{ secrets.GITHUB_TOKEN }}"
+        access-token: "${{ secrets.HELM_TOKEN }}"
         
     # The folder to package helm charts from
         source-charts-folder: ""
